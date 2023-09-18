@@ -3,7 +3,7 @@ import {FaStar} from 'react-icons/fa'
 const Section2 = () => {
  
   return (
-      <div className='bg-gradient-to-r from-violet-300 to-violet-400'>
+      <div className='bg-gradient-to-r from-violet-300 to-violet-500'>
         <div className='flex flex-col md:flex-row justify-between relative'>
         <div className='text-white py-6 my-6 capitalize flex md:absolute top-[50%] md:top-[20%] right-[20%] md:right-[27%] flex-col items-center text-center font-bold text-4xl'>
           <FaStar size={80} color='blue' />
