@@ -12,7 +12,7 @@ const Footer = () => {
         <BiLogoStackOverflow className='m-1 border rounded-full w-10 h-10 p-1 border-black cursor-pointer hover:bg-orange-400 hover:text-white hover:border-white'/>
         <BiLogoLinkedin className='m-1 border rounded-full w-10 h-10 border-black p-1 cursor-pointer hover:bg-blue-700 hover:text-white hover:border-white'/>
         </div>
-        <div className='flex items-center py-6'>
+        <div className='flex flex-col md:flex-row items-center py-6'>
             <p className='opacity-80 py-2 mr-2'>for general enquiries<br/><span className='opacity-100 font-semibold text-lg'>xyz@consulting.org</span></p>
             <p className='opacity-80 py-2 ml-2'>for press or media requests<br/><span className='opacity-100 font-semibold text-lg'>pressxyz@consulting.org</span></p>
         </div>
@@ -29,7 +29,7 @@ const Footer = () => {
             </ul>
             <ul className='mx-6'>
                 <li className='cursor-pointer'>affiliates</li>
-                <li className='cursor-pointer'>become a partner</li>
+                <li className='cursor-pointer'>partners</li>
                 <li className='cursor-pointer'>appeals</li>
                 <li className='cursor-pointer flex items-center'>donate</li>
             </ul>
