@@ -11,12 +11,14 @@ useEffect(() => {
 
 },[nav])
 
+document.title = "consult Inc."
+
   return (
     <nav className="z-10">
         <div className="w-full px-4 md:px-8 mx-auto py-4 flex justify-between max-w-[1280px]">
           <div className='flex items-center'>
         {nav?<HiOutlineXMark size={30} onClick={() => setNav((prev) => !prev)} />: <HiBars3 size={30} onClick={() =>setNav((prev) => !prev)} className='md:hidden'/>}
-         <h1 className="text-2xl md:text-4xl font-semibold mb-5 mx-4 text-blue-700">consult Inc.</h1>
+        <h1 className="text-2xl md:text-4xl font-semibold mb-5 mx-4 text-black lowercase">consult Inc<span className='text-blue-700'>.</span></h1>
          </div>
          <div className='flex items-center'>
           <ul className='md:flex capitalize font-normal text-lg hidden  mr-6'>
